@@ -1,5 +1,5 @@
 const baseUrl = "https://api.github.com/graphql";
-const GITHUB_API_KEY = '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';
+const GITHUB_API_KEY = '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';
 
 const getProfileBtn = document.querySelector("#buycoins-test-fetchbtn");
 const errorDiv = document.querySelector(".user-form__error-msg");
