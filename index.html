@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://github.githubassets.com/favicons/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Github Profile</title>
+  </head>
+  <body>
+    <div class="home-container">
+      <div class="input-box">
+        <div class="input-box__logo">
+          <img src="./assets/octo.svg" alt="github" />
+        </div>
+        <div class="user-form u-mt-medium">
+          <input
+            type="text"
+            id="buycoins-test-username"
+            class="user-form__input"
+            placeholder="Enter your github username"
+            required
+          />
+          <div class="user-form__error-msg"></div>
+          <a href="#" class="btn btn--green u-mt-small" id="buycoins-test-fetchbtn">
+            View Profile
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="/services/graphql/index.js"></script>
+  </body>
+</html>
